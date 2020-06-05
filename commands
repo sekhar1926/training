@@ -1,0 +1,91 @@
+			LINUX COMMANDS
+
+•	pwd: know the present working directory
+
+•	ls: list all the files
+ls -a: List hidden files
+ls-lah: view file sizes of all files in a folder
+
+•	cd: command to go to a directory
+cd .. : go back to the previous directory
+
+•	mkdir: make/create a directory
+
+•	rm: delete files and directories
+rm -r: just delete the directory
+
+
+•	rmdir: remove the entire folder/directory
+
+•	touch: create a file
+
+•	man: to know more about a command
+
+•	cp: copy files through command line
+
+•	mv: move files through a command line
+NOTE: we can also use it to rename files
+
+
+
+•	locate: locate a file in the linux system
+locate -i: ignore the case sensitivity.
+NOTE: if the file has two words we can use asterisk(*)
+	Eg: locate -I hello*world
+
+•	echo: helps to move data into a file
+eg: echo hello, this is java >> new.txt
+
+•	cat: display contents of a file
+
+•	nano, vi : text editors
+
+•	sudo(super user do): use a command with root privileges.
+NOTE: to enter root command line use sudo bash
+We can also use su, but for that we need to setup a root password which can be done using sudo passwd
+
+•	df: used to see available disk space in every partition in KBs
+df -m: show the data in MB
+df-h: show the data in human readable format
+
+•	du: to find the disk usage of a file in the system.
+
+•	Tar: used to work with tar balls
+tar -cvf: create a .tar archive
+tar -xvf: to untar a tar archive
+tar – tvf: to list the contents of the archive
+
+•	zip & unzip: compress and extract files from a zip archive
+
+•	uname: show info about the system your linux distro is running.
+uname -a: prints most of the info about the system
+
+•	apt-get: used to install packages
+apt: used to work with packages
+apt-cache search: used to search for a package
+
+•	chmod: used to make a file executable and change/update its permissions.
+chmod +x filename: make file executable
+chmod 755 filename: give root permissions
+
+•	chown: change/update the ownership of a file
+
+•	hostname: used to know your name in host or network, it displays name and IP address
+hostname -I: display IP
+
+•	ping: check the connection to a server, it gives the RTT.
+
+•	adduser/addgroup: add a  user/group to the system
+
+•	alias: command to create aliaes(shortcuts) to a linux command in the system
+
+•	arch: command to display machine architecture or hardware name (uname -m)
+
+•	cal: print the calendar as the output
+
+•	chgrp: change the group ownership of a file
+eg: chgrp techmint hello.txt
+
+•	cksum: display the CRC checksum and byte count
+
+
